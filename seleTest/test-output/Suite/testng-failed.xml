@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="data1" value="1000"/>
+  <test name="Test(failed)">
+    <parameter name="data1" value="1000"/>
+    <classes>
+      <class name="day06.As">
+        <methods>
+          <include name="alogin"/>
+          <include name="cqukuan2"/>
+          <include name="bqukuan1"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- day06.As -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
